@@ -4,7 +4,7 @@ nnU-Net provides unprecedented out-of-the-box segmentation performance for essen
 it on. That said, there is always room for improvements. A fool-proof strategy for squeezing out the last bit of 
 performance is to start with the default nnU-Net, and then further tune it manually to a concrete dataset at hand.
 **This guide is about changes to the nnU-Net configuration you can make via the plans files. It does not cover code 
-extensions of nnU-Net. For that, take a look [here](extending_nnunet.md)**
+extensions of nnU-Net.**
 
 In nnU-Net V2, plans files are SO MUCH MORE powerful than they were in v1. There are a lot more knobs that you can 
 turn without resorting to hacky solutions or even having to touch the nnU-Net code at all! And as an added bonus: 
