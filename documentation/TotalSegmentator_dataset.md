@@ -51,5 +51,5 @@ Before starting the training process, we combined masks to create multi-label ma
 23: rib_right_11, 24: rib_right_12, 25: sternum, 26: costal_cartilages
 
 ## Dataset Structure
-After combining the masks, we structured the dataset according to the format described in the dataset_format.md.
+After combining the masks, we structured the dataset according to the format described in the [dataset_format.md](dataset_format.md).
 
