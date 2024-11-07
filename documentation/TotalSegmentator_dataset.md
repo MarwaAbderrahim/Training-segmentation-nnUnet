@@ -1,5 +1,5 @@
 ## Training nnU-Net v2 with TotalSegmentator Dataset
-For our training of nnU-Net v2, we utilized the open-source TotalSegmentator dataset, available here. This dataset contains 1,217 CT images, each annotated with 124 ROI (Region of Interest) masks.
+For our training of nnU-Net v2, we utilized the open-source TotalSegmentator dataset, available [here](https://statics.teams.cdn.office.net/evergreen-assets/safelinks/1/atp-safelinks.html). This dataset contains 1,207 CT images, each annotated with 122 ROI (Region of Interest) masks .
 
 To create six distinct models based on specific regions of interest, we organized the data into the following classes:
 
