@@ -35,9 +35,12 @@ install the latest version with support for your hardware (cuda, mps, cpu).
     1) For use as **standardized baseline**, **out-of-the-box segmentation algorithm** or for running 
      **inference with pretrained models**:
 
-       ```pip install nnunetv2```
+       ```pip install nnunetv2
+          pip install -e .
+          pip install blosc2
+       ```
 
-    2) For use as integrative **framework** (this will create a copy of the nnU-Net code on your computer so that you
+    3) For use as integrative **framework** (this will create a copy of the nnU-Net code on your computer so that you
    can modify it as needed):
           ```bash
           git clone https://github.com/MIC-DKFZ/nnUNet.git
