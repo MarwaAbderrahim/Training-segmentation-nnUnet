@@ -31,13 +31,32 @@ memory constraint.
 - **Empirical parameters** are essentially trial-and-error. For example the selection of the best U-net configuration 
 for the given dataset (2D, 3D full resolution, 3D low resolution, 3D cascade) and the optimization of the postprocessing strategy.
 
-## How to get started?
-Read these:
-- [Installation instructions](documentation/installation_instructions.md)
-- [Dataset conversion](documentation/dataset_format.md)
-- [Usage instructions](documentation/how_to_use_nnunet.md)
-- [TotalSegmentator dataset](documentation/TotalSegmentator_dataset.md)
-- [Manually editing nnU-Net configurations](documentation/explanation_plans_files.md)
+## Getting Started
+
+### 1. Install nnUNetv2
+
+To get started, you'll need to install nnUNetv2 and its required dependencies. Please follow the [installation instructions](documentation/installation_instructions.md).
+
+### 2. Prepare the Dataset
+
+You can use the [TotalSegmentator dataset](documentation/TotalSegmentator_dataset.md) for segmentation tasks. Ensure the dataset is in the correct format as per the [dataset conversion guide](documentation/dataset_format.md).
+
+### 3. Set Up Paths
+
+Set up the necessary paths for data storage and configuration by following the [setting up paths guide](setting_up_paths.md).
+
+### 4. Set Environment Variables
+
+Ensure that the environment variables are set correctly for smooth execution. Detailed instructions can be found in the [set environment variables guide](set_environment_variables.md).
+
+### 5. Preprocessing and Training
+
+Once your dataset is ready, you can begin preprocessing and training your model by following the [usage instructions](documentation/how_to_use_nnunet.md).
+
+### 6. Understand Configuration Parameters
+
+You can customize the configuration of nnUNetv2 by editing the configuration files manually. For more details, check the [manually editing nnU-Net configurations guide](documentation/explanation_plans_files.md).
+
 
 
 
