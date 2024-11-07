@@ -3,15 +3,15 @@ For our training of nnU-Net v2, we utilized the open-source TotalSegmentator dat
 
 To create six distinct models based on specific regions of interest, we organized the data into the following classes:
 
-291: "class_map_part_organs"
-292: "class_map_part_vertebrae"
-293: "class_map_part_cardiac"
-294: "class_map_part_muscles"
-295: "class_map_part_ribs"
-253: "class_map_part_cardiac_v1"
+291: "class part organs"
+292: "class part vertebrae"
+293: "class part cardiac"
+294: "class part muscles"
+295: "class part ribs"
+253: "class part cardiac_v1"
 
 # Data Preparation
-Before starting the training process, we combined masks to create multi-label masks using [../combine_masks.py]. Each model is dedicated to a specific ROI category, with the following regions of interest (ROIs) included in each category:
+Before starting the training process, we combined masks to create multi-label masks using [here]../combine_masks.py. Each model is dedicated to a specific ROI category, with the following regions of interest (ROIs) included in each category:
 
 ### Organs
 1: spleen, 2: kidney_right, 3: kidney_left, 4: gallbladder, 5: liver, 6: stomach,
