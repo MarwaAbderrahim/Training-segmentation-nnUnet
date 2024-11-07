@@ -36,18 +36,12 @@ install the latest version with support for your hardware (cuda, mps, cpu).
      **inference with pretrained models**:
 
        ```
+          git clone https://github.com/MarwaAbderrahim/Training-segmentation-nnUnet.git
           pip install nnunetv2
           pip install -e .
           pip install blosc2
        ```
 
-    3) For use as integrative **framework** (this will create a copy of the nnU-Net code on your computer so that you
-   can modify it as needed):
-          ```bash
-          git clone https://github.com/MIC-DKFZ/nnUNet.git
-          cd nnUNet
-          pip install -e .
-          ```
 3) nnU-Net needs to know where you intend to save raw data, preprocessed data and trained models. For this you need to
    set a few environment variables. Please follow the instructions [here](setting_up_paths.md).
 
