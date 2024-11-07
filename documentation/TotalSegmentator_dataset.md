@@ -11,7 +11,7 @@ To create six distinct models based on specific regions of interest, we organize
 253: "class part cardiac_v1"
 
 # Data Preparation
-Before starting the training process, we combined masks to create multi-label masks using [here]../combine_masks.py. Each model is dedicated to a specific ROI category, with the following regions of interest (ROIs) included in each category:
+Before starting the training process, we combined masks to create multi-label masks using [here](../combine_masks.py). Each model is dedicated to a specific ROI category, with the following regions of interest (ROIs) included in each category:
 
 ### Organs
 1: spleen, 2: kidney_right, 3: kidney_left, 4: gallbladder, 5: liver, 6: stomach,
