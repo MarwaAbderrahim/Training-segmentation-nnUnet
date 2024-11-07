@@ -35,7 +35,8 @@ install the latest version with support for your hardware (cuda, mps, cpu).
     1) For use as **standardized baseline**, **out-of-the-box segmentation algorithm** or for running 
      **inference with pretrained models**:
 
-       ```pip install nnunetv2
+       ```
+          pip install nnunetv2
           pip install -e .
           pip install blosc2
        ```
