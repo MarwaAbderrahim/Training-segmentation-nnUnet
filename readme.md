@@ -39,17 +39,8 @@ Read these:
 
 Additional information:
 - [Region-based training](documentation/region_based_training.md)
-- [Manual data splits](documentation/manual_data_splits.md)
-- [Pretraining and finetuning](documentation/pretraining_and_finetuning.md)
 - [Intensity Normalization in nnU-Net](documentation/explanation_normalization.md)
 - [Manually editing nnU-Net configurations](documentation/explanation_plans_files.md)
-- [Extending nnU-Net](documentation/extending_nnunet.md)
-- [What is different in V2?](documentation/changelog.md)
 
-[//]: # (- [Ignore label]&#40;documentation/ignore_label.md&#41;)
 
-## Where does nnU-net perform well and where does it not perform?
-nnU-Net excels in segmentation problems that need to be solved by training from scratch, 
-for example: research applications that feature non-standard image modalities and input channels,
-challenge datasets from the biomedical domain, majority of 3D segmentation problems, etc . We have yet to find a 
-dataset for which nnU-Net's working principle fails!
+
