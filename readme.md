@@ -2,26 +2,12 @@
 
 
 # What is nnU-Net?
-Image datasets are enormously diverse: image dimensionality (2D, 3D), modalities/input channels (RGB image, CT, MRI, microscopy, ...), 
-image sizes, voxel sizes, class ratio, target structure properties and more change substantially between datasets. 
-Traditionally, given a new problem, a tailored solution needs to be manually designed and optimized  - a process that 
-is prone to errors, not scalable and where success is overwhelmingly determined by the skill of the experimenter. Even 
-for experts, this process is anything but simple: there are not only many design choices and data properties that need to 
-be considered, but they are also tightly interconnected, rendering reliable manual pipeline optimization all but impossible! 
-
 **nnU-Net is a semantic segmentation method that automatically adapts to a given dataset. It will analyze the provided 
 training cases and automatically configure a matching U-Net-based segmentation pipeline. No expertise required on your 
 end! You can simply train the models and use them for your application**.
-
-## What is the scope of nnU-Net?
-nnU-Net is built for semantic segmentation. It can handle 2D and 3D images with arbitrary 
-input modalities/channels. It can understand voxel spacings, anisotropies and is robust even when classes are highly
-imbalanced.
-
 nnU-Net relies on supervised learning, which means that you need to provide training cases for your application. The number of 
 required training cases varies heavily depending on the complexity of the segmentation problem. No 
-one-fits-all number can be provided here! nnU-Net does not require more training cases than other solutions - maybe 
-even less due to our extensive use of data augmentation. 
+one-fits-all number can be provided here! 
 
 ## How does nnU-Net work?
 Given a new dataset, nnU-Net will systematically analyze the provided training cases and create a 'dataset fingerprint'. 
