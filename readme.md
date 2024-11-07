@@ -40,7 +40,6 @@ Read these:
 
 Additional information:
 - [Region-based training](documentation/region_based_training.md)
-- [Intensity Normalization in nnU-Net](documentation/explanation_normalization.md)
 - [Manually editing nnU-Net configurations](documentation/explanation_plans_files.md)
 
 
