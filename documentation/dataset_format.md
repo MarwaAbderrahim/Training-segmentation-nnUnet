@@ -160,5 +160,5 @@ There is a utility with which you can generate the dataset.json automatically. Y
 [here](../nnunetv2/dataset_conversion/generate_dataset_json.py). 
 See our examples in [dataset_conversion](../nnunetv2/dataset_conversion) for how to use it. And read its documentation!
 
-## How to use Totalsegmentator dataset datasets
+## How to use Totalsegmentator dataset
 See [TotalSegmentator_dataset.md](TotalSegmentator_dataset.md)
