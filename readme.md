@@ -37,9 +37,6 @@ Read these:
 - [Dataset conversion](documentation/dataset_format.md)
 - [Usage instructions](documentation/how_to_use_nnunet.md)
 - [TotalSegmentator dataset](documentation/TotalSegmentator_dataset.md)
-
-Additional information:
-- [Region-based training](documentation/region_based_training.md)
 - [Manually editing nnU-Net configurations](documentation/explanation_plans_files.md)
 
 
