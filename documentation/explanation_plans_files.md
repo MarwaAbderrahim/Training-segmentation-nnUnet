@@ -19,7 +19,7 @@ local settings are attached to a specific configuration.
 ## Global settings
 
 - `foreground_intensity_properties_by_modality`: Intensity statistics of the foreground regions (all labels except 
-background and ignore label), computed over all training cases. Used by [CT normalization scheme](explanation_normalization.md).
+background and ignore label), computed over all training cases.
 - `image_reader_writer`: Name of the image reader/writer class that should be used with this dataset. You might want 
 to change this if, for example, you would like to run inference with files that have a different file format. The 
 class that is named here must be located in nnunetv2.imageio!
