@@ -39,6 +39,9 @@ Alternatively you can also just prefix them to your nnU-Net commands:
 You can always execute `echo ${nnUNet_raw}` etc to print the environment variables. This will return an empty string if 
 they were not set.
 
+# Windows
+
+
 ## Temporary
 Just execute the following before you run nnU-Net:
 
@@ -51,9 +54,9 @@ $Env:nnUNet_results = "/media/test/nnUNet_results"
 
 (command prompt)
 ```commandline
-set nnUNet_raw="/media/test/nnUNet_raw"
-set nnUNet_preprocessed="/media/test/nnUNet_preprocessed"
-set nnUNet_results="/media/test/nnUNet_results"
+set nnUNet_raw=/media/test/nnUNet_raw
+set nnUNet_preprocessed=/media/test/nnUNet_preprocessed
+set nnUNet_results=/media/test/nnUNet_results
 ```
 
 (of course you need to adapt the paths to the actual folders you intend to use).
