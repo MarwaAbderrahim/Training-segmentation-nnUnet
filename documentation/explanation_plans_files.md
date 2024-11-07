@@ -11,8 +11,6 @@ turn without resorting to hacky solutions or even having to touch the nnU-Net co
 plans files are now also .json files and no longer require users to fiddle with pickle. Just open them in your text 
 editor of choice!
 
-If overwhelmed, look at our [Examples](#examples)!
-
 # plans.json structure
 
 Plans have global and local settings. Global settings are applied to all configurations in that plans file while 
